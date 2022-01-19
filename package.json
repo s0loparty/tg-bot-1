@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "tg-bot-weather",
+  "version": "1.0.0",
+  "description": "telegram bot weather",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tg",
+    "bot",
+    "weather"
+  ],
+  "author": " <alabamaster1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^14.2.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.1.2"
+  }
+}
