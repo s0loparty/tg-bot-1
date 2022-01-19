@@ -1,8 +1,8 @@
 {
   "type": "module",
-  "name": "tg-bot-weather",
+  "name": "tg-bot-1",
   "version": "1.0.0",
-  "description": "telegram bot weather",
+  "description": "1st telegram bot",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
@@ -11,15 +11,17 @@
   "keywords": [
     "tg",
     "bot",
-    "weather"
+    "weather",
+    "cats"
   ],
   "author": " <alabamaster1@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
     "dotenv": "^14.2.0",
-    "node-telegram-bot-api": "^0.56.0",
-    "nodemon": "^2.0.15",
-    "pm2": "^5.1.2"
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

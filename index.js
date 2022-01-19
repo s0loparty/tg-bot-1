@@ -1,9 +1,6 @@
-// const TelegramBot = require('node-telegram-bot-api')
-// const axios = require('axios')
-import TelegramBot from "node-telegram-bot-api"
-import axios from "axios"
-
-require('dotenv').config()
+import TelegramBot from 'node-telegram-bot-api'
+import axios from 'axios'
+import 'dotenv/config'
 
 const BOT_TOKEN = process.env.BOT_TOKEN
 const API_WEATHER = process.env.WEATHER_API
