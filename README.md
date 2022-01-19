@@ -1,2 +1,2 @@
-# tg-soloparty-bot
- telegram bot
+# tg-bot-1
+ first telegram bot
